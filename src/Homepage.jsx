@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import Card from "./Card";
-import Slideshow from "./Slideshow";
-import Reviewbox from "./Reviewbox";
-import Faq from "./Faq";
-import ContactForm from "./userform";
-import CheckBox from "./CheckBox";
-import { Menu, X } from 'lucide-react';
 import { motion } from "framer-motion";
+import { Menu, X } from 'lucide-react';
+import { useState } from "react";
+import Card from "./Card";
+import CheckBox from "./CheckBox";
+import Faq from "./Faq";
+import Reviewbox from "./Reviewbox";
+import Slideshow from "./Slideshow";
 
 
 const Homepage = () => {
