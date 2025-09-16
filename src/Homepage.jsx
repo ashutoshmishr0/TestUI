@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Card from "./card";
+import Card from "./Card";
 import Slideshow from "./Slideshow";
 import Reviewbox from "./Reviewbox";
 import Faq from "./Faq";
