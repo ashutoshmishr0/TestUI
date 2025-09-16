@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { Menu, X } from 'lucide-react';
 import { useState } from "react";
-import Card from "./Card";
+import Card from "./Card1";
 import CheckBox from "./CheckBox";
 import Faq from "./Faq";
 import Reviewbox from "./Reviewbox";

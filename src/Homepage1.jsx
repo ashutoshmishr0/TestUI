@@ -1,14 +1,16 @@
 import { motion } from "framer-motion";
 import { Menu, X } from 'lucide-react';
 import { useState } from "react";
-import Card from "./Card";
+// import Card from "./Card";
 import CheckBox from "./CheckBox";
 import Faq from "./Faq";
 import Reviewbox from "./Reviewbox";
 import Slideshow from "./Slideshow";
+import Card1 from "./Card1";
+// import Card from "./Card1";
 
 
-const Homepage = () => {
+const Homepage1 = () => {
   const [isOpen, setIsOpen] = useState(false);
 
    const toggleMenu = () => {
@@ -414,7 +416,7 @@ const Homepage = () => {
 
 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 py-6">
   {car.map((carItem, index) => (
-    <Card key={index} name={carItem.name} title={carItem.title} />
+    <Card1 key={index} name={carItem.name} title={carItem.title} />
   ))}
 </div>
 
@@ -730,4 +732,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default Homepage1;
